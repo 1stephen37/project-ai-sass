@@ -17,7 +17,7 @@ const Logo: React.FC<LogoProps> =  ( {className} ) => {
         <div className={cn(
             "flex items-center"
         )}>
-            <BrainCircuit></BrainCircuit>
+            <BrainCircuit color={"#0ea5e9"} size={40}></BrainCircuit>
             <span className={cn(
                 "ml-2 font-bold text-3xl",
                 poppins.className

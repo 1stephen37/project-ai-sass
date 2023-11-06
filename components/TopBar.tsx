@@ -16,7 +16,7 @@ function TopBar() {
             "lg:hidden"
         )}>
             <Logo/>
-            <Button>
+            <Button variant={"ghost"} size={"icon"} onclick={handleOpenOrClose}>
                 <Menu />
             </Button>
         </div>
